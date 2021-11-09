@@ -1,0 +1,23 @@
+To build on Ubuntu:
+
+cd to the OOTB root folder:
+    
+    mkdir build
+    cd build
+    cmake ..
+    make
+    sudo make install
+    sudo ldconfig
+    
+    
+This is the switcher-write-a-block package meant as a guide to building
+out-of-tree packages. To use the switcher blocks, the Python namespaces
+is in 'switcher', which is imported as:
+
+    import switcher
+
+See the Doxygen documentation for details about the blocks available
+in this package. A quick listing of the details can be found in Python
+after importing by using:
+
+    help(switcher)

@@ -1,0 +1,15 @@
+id: switcher_switcher
+label: switcher
+category: '[Switcher]'
+templates:
+  imports: import switcher
+  make: switcher.switcher()
+inputs:
+- label: in
+  domain: stream
+  dtype: complex
+outputs:
+- label: out
+  domain: stream
+  dtype: complex
+file_format: 1
